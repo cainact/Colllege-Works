@@ -1,0 +1,53 @@
+body{
+    background-image: url("../IMAGENS/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 40px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+    background-image: url(../IMAGENS/faixapreta.png);
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    animation-name: decor;
+    animation-duration: 10s;
+}
+
+    @keyframes decor{
+        from {background-color: rgb(255, 255, 255);}
+        to {background-color: rgb(0, 0, 0) ;}
+    }
+
+table{
+    background-color:rgb(247, 255, 172);
+    border-color:rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr:hover{
+    background-color: cornsilk;
+}
+tr:nth-child(even)
+{
+    background-color: darkgrey;
+}
+td{
+    font-size: 20px;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
